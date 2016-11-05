@@ -5,8 +5,8 @@ Sweet. Let's do this.
 
 ## Setup
 
-Before you can do all the cool stuff, you need to do a little
-boring stuff. It won't take long, honest.
+Before you can get to all the cool stuff, you need to do a little
+bit of boring stuff. It won't take long, honest.
 
 ### 1. Register your Discord application
 
@@ -25,7 +25,7 @@ you do _have_ a Discord account, right?
 
 3. Behold, you've arrived at the majestic My Applications page:
 
-  [img]
+  ![My Applications Page](https://raw.githubusercontent.com/StephenBarlow/discord/master/images/myapplications.png)
 
   See the giant **New Application** button? Click it, _if you dare_.
 
@@ -34,18 +34,18 @@ you do _have_ a Discord account, right?
   ___Oh no, now there's a bunch of buttons and text fields!
   TIME TO PANIC.___ Stay cool! For now, the only thing you need to put in here is your __app name__ at the top, like so:
 
-  [img]
+  ![App Name Field](https://raw.githubusercontent.com/StephenBarlow/discord/master/images/appname.png)
 
   Then, click __Save Changes__ at the bottom of the form.
 
-Just like that, your app has been REGISTERED! But don't leave this page just yet, because you still need to...
+Just like that, hype-bot has been REGISTERED! But don't leave this page just yet, because you still need to...
 
 ### 2. Obtain your app credentials
 
 After you register your app, a couple new sections appear on
 its details page:
 
-[img]
+![App Details](https://raw.githubusercontent.com/StephenBarlow/discord/master/images/appdetails.png)
 
 First things first, copy down your app's __Client ID__. You'll need
 it later in the tutorial. Next, you'll also need some __bot
@@ -58,7 +58,7 @@ it later in the tutorial. Next, you'll also need some __bot
 
 2. Your app bot user details appear:
 
-  [img]
+  ![Bot Credentials](https://raw.githubusercontent.com/StephenBarlow/discord/master/images/botcredentials.png)
 
   For this tutorial, the only info you'll need is your bot
   user's __Token__. This is hidden on the page by default,
@@ -78,8 +78,8 @@ If you're building an app with other people, be sure to invite them.
 ### 4. Install the Discord client library for Python
 
 Working with a web API like Discord's is a lot easier with an
-SDK, don't you think so? We do. Here's how to install our Python
-SDK from the command line:
+SDK, don't you think? We sure do. Here's how to install our
+Python SDK from the command line:
 
     pip install disco-py
 
@@ -109,8 +109,8 @@ In this case, if you send your bot the chat message `hype`, the
  `get_hype` function is called.
 
 * The `get_hype` function instructs the bot to respond with the
-message `THE HYPE IS REAL` in the channel where the `hype`
- message was received.
+message `THE HYPE IS REAL` in the channel where the triggering
+`hype` message was received.
 
 
 ## Add your bot to your test server
@@ -148,16 +148,16 @@ permissions are covered in much greater detail later on.
 Paste your assembled authorization URL into your browser and hit the
 big ol' Enter key. Lo and behold, it's your bot's __permissions form__:
 
-[img]
+![Permissions Form](https://raw.githubusercontent.com/StephenBarlow/discord/master/images/permissionform.png)
 
 This lets an admin verify which permissions a bot is requesting before
 they decide whether to authorize it.
 
 Select your server from the dropdown menu and click __Authorize__.
 
-Now, check out your test server! Look who's hanging out with you:
+Check out your test server! Look who's hanging out with you:
 
-[img]
+![Bot Online](https://raw.githubusercontent.com/StephenBarlow/discord/master/images/botonline.png)
 
 Sweet. Now, try typing the following into the channel chat:
 
@@ -196,7 +196,7 @@ Go back to your test server one more time and type the following again:
 
 OH SNAP, LOOK:
 
-[img]
+![The Hype Is Real](https://raw.githubusercontent.com/StephenBarlow/discord/master/images/hypeisreal.png)
 
 Yes it is, hype-bot. Yes it is.
 
